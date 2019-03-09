@@ -1,0 +1,25 @@
+{
+  "name": "ninja-cli",
+  "version": "0.0.1",
+  "description": "My simple cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ninja-cli": "./bin/run.js"
+  },
+  "keywords": [
+    "cli",
+    "javascript"
+  ],
+  "author": "PerfectDemo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0",
+    "debug": "^4.1.1",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "utility": "^1.15.0"
+  }
+}
